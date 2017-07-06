@@ -93,16 +93,24 @@ namespace LoopsPracticeSummer17
             //  do something
             //}
 
-            string[] firstMonths = { "Jan", "Feb", "Mar", "Apr", "May", "June" };
-            //always start with the keyword foreach
-            foreach (string month in firstMonths)
-            {
-                Console.WriteLine(month);
-            }
+            //string[] firstMonths = { "Jan", "Feb", "Mar", "Apr", "May", "June" };
+            ////always start with the keyword foreach
+            //foreach (string month in firstMonths)
+            //{
+            //    Console.WriteLine(month);
+            //}
             //foreach loops allow the temporary variable to "know" to assign...
             //..itself to each element in the collection (like an array), one at a time
             //foreach loop will always go from beginning to end, no matter what
             //it counts the number of elements in the collection, and runs that many times
+
+            //Create an array of 6 musicians (bands or solo artist)
+            //Using a foreach loop, print each musician's name
+            string[] musicianNames = { "KDOT", "Weezer", "ALT-J", "Phantogram", "J.Cole", "RHCP" };
+            foreach (string artist in musicianNames)
+            {
+                Console.WriteLine(artist);
+            }
 
 
 
