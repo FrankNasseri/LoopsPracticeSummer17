@@ -115,14 +115,61 @@ namespace LoopsPracticeSummer17
             //WHILE LOOP: is used when you want a chunk of code to run only if a condition is met first.
             //While something is TRUE, do this thing.
 
-            Console.WriteLine("What is your first name?");
-            string firstName = Console.ReadLine();
-            while (firstName.ToUpper() == "FRANK" )
-            {
-                Console.WriteLine("Dude, you are amazing.");
-                break;
-            }
+            //Console.WriteLine("What is your first name?");
+            //string firstName = Console.ReadLine();
+            //while (firstName.ToUpper() == "FRANK" )
+            //{
+            //    Console.WriteLine("Dude, you are amazing.");
+            //    break;
+            //}
 
+            //Console.WriteLine("Do you want to play the game? YES/NO");
+            //string playAgain = Console.ReadLine().ToUpper();
+            //while(playAgain == "YES")
+            //{
+            //    Console.WriteLine("It's a rematch!");
+            //    Console.WriteLine("Do you want to play again? YES/NO");
+            //    playAgain = Console.ReadLine();
+            //}
+
+            //DO-WHILE LOOP is similar to a While loop, however...
+            //...the Do-While loop is used when you want a chunk of code to run..
+            //...AT LEAST ONCE, but repeat onlyif the While condition is met
+            //Structure
+            //do
+            //{
+            //do something
+            //}
+            //while(condition);
+
+            //string playAgain;
+            //do
+            //{
+            //    Console.WriteLine("Welcome to my game!");
+            //    //let's pretend the code for the game is here
+            //    Console.WriteLine("Great Game!");
+            //    Console.WriteLine("Do you want to play again? YES/NO");
+            //    playAgain = Console.ReadLine().ToUpper();
+            //}
+            //while (playAgain == "YES");
+
+            //Ask the user for the class (in school) that they would like to add to their GPA calculation
+            //Ask the user for the letter grade for the class (no + or -)
+            //Ask the user if they have another class they would like to add to their GPA calculation
+            //Using a Do-While Loop, repeat the code if the user says "YES"
+
+            string classGrade;
+            do
+            {
+                Console.WriteLine("What class would you like to add to your GPA?");
+                Console.ReadLine();
+                Console.WriteLine("What was your letter grade in the class (no + or -)");
+                Console.ReadLine();
+                Console.WriteLine("Do you have another class you would like to add to your GPA? YES/NO");
+                classGrade = Console.ReadLine().ToUpper();
+            }
+            while (classGrade == "YES");
+        
 
 
 
