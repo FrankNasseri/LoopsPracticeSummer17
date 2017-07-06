@@ -106,10 +106,21 @@ namespace LoopsPracticeSummer17
 
             //Create an array of 6 musicians (bands or solo artist)
             //Using a foreach loop, print each musician's name
-            string[] musicianNames = { "KDOT", "Weezer", "ALT-J", "Phantogram", "J.Cole", "RHCP" };
-            foreach (string artist in musicianNames)
+            //string[] musicianNames = { "KDOT", "Weezer", "ALT-J", "Phantogram", "J.Cole", "RHCP" };
+            //foreach (string artist in musicianNames)
+            //{
+            //    Console.WriteLine(artist);
+            //}
+
+            //WHILE LOOP: is used when you want a chunk of code to run only if a condition is met first.
+            //While something is TRUE, do this thing.
+
+            Console.WriteLine("What is your first name?");
+            string firstName = Console.ReadLine();
+            while (firstName.ToUpper() == "FRANK" )
             {
-                Console.WriteLine(artist);
+                Console.WriteLine("Dude, you are amazing.");
+                break;
             }
 
 
