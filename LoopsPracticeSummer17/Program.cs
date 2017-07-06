@@ -219,7 +219,34 @@ namespace LoopsPracticeSummer17
             //    Console.WriteLine();
             //}
 
-
+            //Remember that in FizzBuzz, if it is not a FizzBuzz, Fizz, or Buzz number
+            //you print the number itself.
+            Console.WriteLine("Let's Play FizzBuzz!");
+            Console.WriteLine("Please enter your FIZZ number");
+            int fizz = int.Parse(Console.ReadLine());
+            Console.WriteLine("Please enter your BUZZ number");
+            int buzz = int.Parse(Console.ReadLine());
+            Console.WriteLine("What number would you like me to count to? (Pick a high one)");
+            int endNumber = int.Parse(Console.ReadLine());
+            for (int i = 0; i <= endNumber; i++)
+            {
+                if (i % fizz == 0 && i % buzz == 0)
+                {
+                    Console.WriteLine("Fizz Buzz!");
+                }
+                else if (i % fizz == 0)
+                {
+                    Console.WriteLine("Fizz!");
+                }
+                else if (i % buzz == 0)
+                {
+                    Console.WriteLine("Buzz!");
+                }
+                else
+                {
+                    Console.WriteLine(i);
+                }
+            }
 
 
         }
