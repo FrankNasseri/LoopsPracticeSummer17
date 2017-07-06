@@ -68,13 +68,13 @@ namespace LoopsPracticeSummer17
 
             //Add the product (multiplication) of 1 through 10, including 10, using a For Loop
             //Print the product to the screen.
-            int product = 1;
-            for (int i = 1; i <= 10; i++)
-            {
-                product = product * i;
-            }
-                Console.WriteLine(product);
-            
+            //int product = 1;
+            //for (int i = 1; i <= 10; i++)
+            //{
+            //    product = product * i;
+            //}
+            //    Console.WriteLine(product);
+
             //or
             //int[] numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
             //int product = numbers[0];
@@ -83,7 +83,26 @@ namespace LoopsPracticeSummer17
             //    product = product * numbers[i];
             //}
             //Console.WriteLine(product);
-            //OR
+
+            //FOREACH LOOP - used to iterate over a collection (ex. list or array)
+            //You can think of the structure of a foreach loop as a statement:
+            //For each item in the collection, do something
+            //SETUP
+            //foreach(datatype variable in collection
+            //{
+            //  do something
+            //}
+
+            string[] firstMonths = { "Jan", "Feb", "Mar", "Apr", "May", "June" };
+            //always start with the keyword foreach
+            foreach (string month in firstMonths)
+            {
+                Console.WriteLine(month);
+            }
+            //foreach loops allow the temporary variable to "know" to assign...
+            //..itself to each element in the collection (like an array), one at a time
+            //foreach loop will always go from beginning to end, no matter what
+            //it counts the number of elements in the collection, and runs that many times
 
 
 
