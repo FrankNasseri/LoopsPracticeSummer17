@@ -251,15 +251,47 @@ namespace LoopsPracticeSummer17
             //create an array of lucky numbers (#s you like). using a foreach loop, print the following
             //Your Lucky Number is: #
             //Your Lucky Number is: # etc, etc
-            int[] luckyNumbers = { 4, 7, 11, 12, 57 };
-            foreach (int number in luckyNumbers)
-            {
-                Console.WriteLine("Your Lucky Number is: " +  (number));
-            }
+            //int[] luckyNumbers = { 4, 7, 11, 12, 57 };
+            //foreach (int number in luckyNumbers)
+            //{
+            //    Console.WriteLine("Your Lucky Number is: " +  (number));
+            //}
+
+            //Write a program that prints a multiplication table (5 x 5, for example) using a nested loops.
+            //int multNum = 1;
+
+            //for (int i =1; i <= 5; i++)
+            //{
+            //    for (int j =1; j <= 5; j++)
+            //    {
+            //        Console.Write(multNum * j + " ");                 
+            //    }
+            //    multNum += 1;
+            //    Console.WriteLine();
+            //}
+            //OR
+            //int multNum = 1;
+            //Console.WriteLine("Enter in your first number.");
+            //int firstNumber = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter in your second number.");
+            //int secondNumber = int.Parse(Console.ReadLine());
+            //for (int i = 1; i <= firstNumber; i++)
+            //{
+            //    for (int j = 1; j <= secondNumber; j++)
+            //    {
+            //        Console.Write(multNum * j + " ");
+            //    }
+            //    multNum += 1;
+            //    Console.WriteLine();
+            //}
+
+            //Create an array of your favorite movies. Print out each movie in the list,.. 
+            //..unless the move starts with a vowel. Hint : Research .startsWith()
+
+            //Write a console application that asks the user for an integer. If that integer is evenly divisible by 3,.. 
+            //..then write “You Won!” If it isn’t, write “You Lost.” Keep asking them for a number (looping) until they win.
 
 
-            
-           
 
         }
     }
