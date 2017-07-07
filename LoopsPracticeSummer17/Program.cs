@@ -134,7 +134,7 @@ namespace LoopsPracticeSummer17
 
             //DO-WHILE LOOP is similar to a While loop, however...
             //...the Do-While loop is used when you want a chunk of code to run..
-            //...AT LEAST ONCE, but repeat onlyif the While condition is met
+            //...AT LEAST ONCE, but repeat only if the While condition is met
             //Structure
             //do
             //{
@@ -318,8 +318,23 @@ namespace LoopsPracticeSummer17
 
             //Write a console application that asks the user for an integer. If that integer is evenly divisible by 3,.. 
             //..then write “You Won!” If it isn’t, write “You Lost.” Keep asking them for a number (looping) until they win.
-            Console.WriteLine("Please enter an integer");
-            int userNumber = int.Parse(Console.ReadLine());
+            //i know i need to ask user for integer, and get the input, and save it
+           // Console.WriteLine("Please enter an integer (whole number).");
+           // int userNumber = int.Parse(Console.ReadLine());
+
+           // //"evenly divisible" is a good indicator of modulus
+           // //we have to check if the input % 3 == 0
+           // //we need a conditional and if the input % 3 == 0 we need to write "You Won!"
+           // //and we need to exit the loop
+           // //if their input % 3 is not equal to 0, we have to let them know "You Lost!"
+           // //and ask for another integer. we repeat this, until they win.
+           //while(userNumber % 3 != 0 )
+           // {
+           //     Console.WriteLine("You Lost!");
+           //     Console.WriteLine("Please enter another integer.");
+           //     userNumber = int.Parse(Console.ReadLine());
+           // }
+           // Console.WriteLine("You Won!");
 
 
 
